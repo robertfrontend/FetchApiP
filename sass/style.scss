@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.app {
+    width: 100%;
+    .bienvenida {
+        width: 100%;
+        text-align: center;
+        padding: 20px;
+        h1 {
+            font-weight: bold;
+        }
+    }
+    .botones {
+        width: 100%;
+        text-align: center;
+        padding: 20px;
+    }
+    .resultados{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        .tarjeta{
+            position: relative;
+            width: 350px;
+            background-color: #6c5ce7;
+            padding: 30px;
+            margin: 10px auto;
+            display: flex;
+            justify-content: flex-start;
+            align-items: flex-start;
+            border-radius: 10px;
+            h3{
+                font-weight: bold;
+                color: white;
+                text-decoration: underline;
+            }
+            p {
+                color: white;
+                font-size: 18px;
+                span {
+                    font-size: 20px;
+                    font-weight: bold;
+                }
+            }
+        }
+        .tarjetaCli{
+            width: 350px;
+            background-color: #00b894;
+            padding: 30px;
+            margin: 10px auto;
+            display: flex;
+            justify-content: flex-start;
+            align-items: flex-start;
+            border-radius: 10px;
+            h3{
+                font-weight: bold;
+                color: white;
+                text-decoration: underline;
+            }
+            p {
+                color: white;
+                font-size: 18px;
+                span {
+                    font-size: 20px;
+                    font-weight: bold;
+                }
+            }
+        }
+    }
+    .divCarga{
+        width: 100%;
+        text-align: center;
+    }
+}
+
+
+.lds-dual-ring {
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+  }
+  .lds-dual-ring:after {
+    content: " ";
+    display: block;
+    width: 64px;
+    height: 64px;
+    margin: 8px;
+    border-radius: 50%;
+    border: 6px solid #2d3436;
+    border-color: #2d3436 transparent #2d3436 transparent;
+    animation: lds-dual-ring 1.2s linear infinite;
+  }
+  @keyframes lds-dual-ring {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }

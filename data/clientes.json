@@ -1,0 +1,17 @@
+[
+    {
+        "nombreCliente" : "Fulano1",
+        "apellidoCliente" : "Tal1",
+        "tipoCliente" : "Premium"
+    },
+    {
+        "nombreCliente" : "Fulano2",
+        "apellidoCliente" : "Tal2",
+        "tipoCliente" : "Platium"
+    },
+    {
+        "nombreCliente" : "Fulano3",
+        "apellidoCliente" : "Tal3",
+        "tipoCliente" : "Bronce"
+    }
+]

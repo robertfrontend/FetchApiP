@@ -1,0 +1,159 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.app {
+  width: 100%;
+}
+
+.app .bienvenida {
+  width: 100%;
+  text-align: center;
+  padding: 20px;
+}
+
+.app .bienvenida h1 {
+  font-weight: bold;
+}
+
+.app .botones {
+  width: 100%;
+  text-align: center;
+  padding: 20px;
+}
+
+.app .resultados {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.app .resultados .tarjeta {
+  position: relative;
+  width: 350px;
+  background-color: #6c5ce7;
+  padding: 30px;
+  margin: 10px auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  border-radius: 10px;
+}
+
+.app .resultados .tarjeta h3 {
+  font-weight: bold;
+  color: white;
+  text-decoration: underline;
+}
+
+.app .resultados .tarjeta p {
+  color: white;
+  font-size: 18px;
+}
+
+.app .resultados .tarjeta p span {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.app .resultados .tarjetaCli {
+  width: 350px;
+  background-color: #00b894;
+  padding: 30px;
+  margin: 10px auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  border-radius: 10px;
+}
+
+.app .resultados .tarjetaCli h3 {
+  font-weight: bold;
+  color: white;
+  text-decoration: underline;
+}
+
+.app .resultados .tarjetaCli p {
+  color: white;
+  font-size: 18px;
+}
+
+.app .resultados .tarjetaCli p span {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.app .divCarga {
+  width: 100%;
+  text-align: center;
+}
+
+.lds-dual-ring {
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+}
+
+.lds-dual-ring:after {
+  content: " ";
+  display: block;
+  width: 64px;
+  height: 64px;
+  margin: 8px;
+  border-radius: 50%;
+  border: 6px solid #2d3436;
+  border-color: #2d3436 transparent #2d3436 transparent;
+  -webkit-animation: lds-dual-ring 1.2s linear infinite;
+          animation: lds-dual-ring 1.2s linear infinite;
+}
+
+@-webkit-keyframes lds-dual-ring {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@keyframes lds-dual-ring {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+/*# sourceMappingURL=style.css.map */

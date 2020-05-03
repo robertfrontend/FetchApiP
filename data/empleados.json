@@ -1,0 +1,33 @@
+[
+    {
+        "nombre" : "Robert",
+        "apellido" : "Romero",
+        "puesto" : "Desarrollador Web"
+    },
+    {
+        "nombre" : "Reynel",
+        "apellido" : "Axel",
+        "puesto" : "Full Stack Developer"
+    },
+    {
+        "nombre" : "Franklin",
+        "apellido" : "Medina",
+        "puesto" : "Ciber Security"
+    },
+    {
+        "nombre" : "Yosuer",
+        "apellido" : "Baez",
+        "puesto" : "Diseñador Grafico"
+    },
+    {
+        "nombre" : "Kevin",
+        "apellido" : "Baez",
+        "puesto" : "Diseñador Grafico"
+    },
+    {
+        "nombre" : "Freddy",
+        "apellido" : "Vega",
+        "puesto" : "Negocios"
+    }
+    
+]
