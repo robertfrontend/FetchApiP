@@ -27,6 +27,7 @@ function mostrarEmpleados() {
                             <br>
                             <p><span>Nombre:</span> ${empleado.nombre}</p>
                             <p><span>Apellido:</span> ${empleado.apellido} </p>
+                            <p><span>Correo:</span> ${empleado.correo} </p>
                             <p><span>Puesto:</span> ${empleado.puesto} </p>
                         </div>
                     </div>
@@ -59,7 +60,7 @@ function mostrarClientes() {
                                 <h3>Clientes:</h3>
                                 <br>
                                 <p><span>Nombre:</span> ${users.name}</p>
-                                <p><span>Apellido:</span> ${users.email} </p>
+                                <p><span>Correo:</span> ${users.email} </p>
                                 <p><span>Ciudad:</span> ${users.address.city} </p>
                             </div>
                         </div>
@@ -78,6 +79,43 @@ function mostrarClientes() {
 document.getElementById('limpiarTodo').addEventListener('click', borrarTodo)
 
 function borrarTodo() {
-    document.querySelector('.resultados').innerHTML = ''
+    document.querySelector('.resultados').innerHTML = '';
 
 }
+
+let nombre = document.getElementById('nombre').value
+let apellido = document.getElementById('apellido').value
+let email = document.getElementById('email').value
+
+let btnAgregar = document.getElementById('agregar')
+btnAgregar.addEventListener('click', agregarEmpleado)
+
+function agregarEmpleado() {
+
+    const dataNew = {
+        nombre,
+        apellido,
+        email
+    }
+    html = `
+            <div class="tarjeta">
+                <div>
+                    <h3>Empleados:</h3>
+                    <br>
+                    <p><span>Nombre:</span> ${dataNew.nombre}</p>
+                    <p><span>Apellido:</span> ${dataNew.apellido} </p>
+                    <p><span>Email:</span> ${dataNew.apellido} </p>
+                </div>
+            </div>
+
+            `
+        document.querySelector('.resultados').innerHTML = html
+    
+}
+
+
+/*
+
+
+
+*/

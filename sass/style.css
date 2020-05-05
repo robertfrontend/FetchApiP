@@ -19,6 +19,31 @@
   font-weight: bold;
 }
 
+.app .agregar {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.app .agregar div {
+  padding: 10px;
+}
+
+.app .agregar div label {
+  padding: 10px;
+}
+
 .app .botones {
   width: 100%;
   text-align: center;
@@ -46,7 +71,7 @@
 
 .app .resultados .tarjeta {
   position: relative;
-  width: 350px;
+  width: 400px;
   background-color: #6c5ce7;
   padding: 30px;
   margin: 10px auto;
@@ -79,7 +104,7 @@
 }
 
 .app .resultados .tarjetaCli {
-  width: 350px;
+  width: 400px;
   background-color: #00b894;
   padding: 30px;
   margin: 10px auto;

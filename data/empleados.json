@@ -2,32 +2,40 @@
     {
         "nombre" : "Robert",
         "apellido" : "Romero",
-        "puesto" : "Desarrollador Web"
+        "puesto" : "Desarrollador Web",
+        "correo" : "robert02frontend@gmail.com"
     },
     {
         "nombre" : "Reynel",
         "apellido" : "Axel",
-        "puesto" : "Full Stack Developer"
+        "puesto" : "Full Stack Developer",
+        "correo" : "Reynelaxel@gmail.com"
     },
     {
         "nombre" : "Franklin",
         "apellido" : "Medina",
-        "puesto" : "Ciber Security"
+        "puesto" : "Ciber Security",
+        "correo" : "FranklinGram@gmail.com"
+
     },
     {
         "nombre" : "Yosuer",
         "apellido" : "Baez",
-        "puesto" : "Diseñador Grafico"
+        "puesto" : "Diseñador Grafico",
+        "correo" : "No encontrado"
     },
     {
         "nombre" : "Kevin",
         "apellido" : "Baez",
-        "puesto" : "Diseñador Grafico"
+        "puesto" : "Diseñador Grafico",
+        "correo" : "No encontrado"
+
     },
     {
         "nombre" : "Freddy",
         "apellido" : "Vega",
-        "puesto" : "Negocios"
+        "puesto" : "Negocios",
+        "correo" : "No encontrado"
     }
     
 ]
