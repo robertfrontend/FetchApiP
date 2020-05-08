@@ -9,45 +9,53 @@
 </head>
 <body>
 
+    <div class="d-flex justify-content-center alert alert-dismissible alert-success">
+        <!-- <button type="button" class="close" data-dismiss="alert">&times;</button> -->
+        <p class="mb-0 text-white ">
+            Esto fue creado para practicar con REST, JSON...Hechale un vistazo a mi portafolio:
+
+            <a href="https://robertrm0.github.io/" target="_blank"  class="alert-link">
+                AQUI!
+            </a>.
+        </p>
+      </div>
     <div class="container">
         <div class="app">
             <div class="bienvenida">
                 <h1>App de Empleados/Clientes</h1>
             </div>
-            <div class="agregar">
-                <div>
-                    <h3 class="" >Agregar empleados</h3>
-                </div>
-                <div>
-                    <label>Nombre:
-                        <input type="text" id="nombre" class="form-control" placeholder="Nombre">
-                    </label>
-                    <label>Apellido:
-                        <input type="text" id="apellido"  class="form-control" placeholder="Apellido">
-                    </label>
-                    <label>Correo:
-                        <input type="email" id="email" class="form-control" placeholder="Email">
-                    </label>
-                    <a href="#" class="btn btn-primary" id="agregar" >Agregar</a>
-                </div>
-            </div>
     
             <div class="botones">
-                <a href="#" class="btn btn-primary" id="btnEmpleados" >
-                    Mostrar empleados
-                </a>
-                <a href="#" class="btn btn-danger" id="limpiarTodo">
-                    Limpiar
-                </a>
-                <a href="#" class="btn btn-primary" id="btnClientes">
-                    Mostrar Clientes
-                </a>
+                <div>
+                    <label for="">
+                        Mostrar Empleados
+                        <a href="#" class="btn btn-info" id="btnEmpleados" >
+                            Mostrar
+                        </a>
+                    </label>
+                </div>
+                <div>
+                    <label for="">
+                        Borrar Resultados
+                        <a href="#" class="btn btn-danger" id="limpiarTodo">
+                            Limpiar
+                        </a>
+                    </label>
+                </div>
+                <div>
+                    <label for="">
+                        Mostrar Clientes
+                        <a href="#" class="btn btn-success" id="btnClientes">
+                            Mostrar
+                        </a>
+                    </label>
+                </div>
             </div>
             <div class="divCarga">
                 
             </div>
             <div class="resultados">
-    
+
             </div>
         </div>
     

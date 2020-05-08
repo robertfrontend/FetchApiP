@@ -5,6 +5,10 @@
           box-sizing: border-box;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 .app {
   width: 100%;
 }
@@ -48,6 +52,23 @@
   width: 100%;
   text-align: center;
   padding: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.app .botones div {
+  padding: 20px;
 }
 
 .app .resultados {
@@ -70,69 +91,27 @@
 }
 
 .app .resultados .tarjeta {
-  position: relative;
   width: 400px;
-  background-color: #6c5ce7;
   padding: 30px;
-  margin: 10px auto;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
+  margin: 20px auto;
   border-radius: 10px;
+  -webkit-box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.678);
+          box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.678);
 }
 
 .app .resultados .tarjeta h3 {
+  font-size: 25px;
   font-weight: bold;
   color: white;
-  text-decoration: underline;
 }
 
 .app .resultados .tarjeta p {
   color: white;
-  font-size: 18px;
+  font-size: 16px;
 }
 
 .app .resultados .tarjeta p span {
-  font-size: 20px;
-  font-weight: bold;
-}
-
-.app .resultados .tarjetaCli {
-  width: 400px;
-  background-color: #00b894;
-  padding: 30px;
-  margin: 10px auto;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
-  border-radius: 10px;
-}
-
-.app .resultados .tarjetaCli h3 {
-  font-weight: bold;
-  color: white;
-  text-decoration: underline;
-}
-
-.app .resultados .tarjetaCli p {
-  color: white;
   font-size: 18px;
-}
-
-.app .resultados .tarjetaCli p span {
-  font-size: 20px;
   font-weight: bold;
 }
 
@@ -154,8 +133,8 @@
   height: 64px;
   margin: 8px;
   border-radius: 50%;
-  border: 6px solid #2d3436;
-  border-color: #2d3436 transparent #2d3436 transparent;
+  border: 6px solid #ffffff;
+  border-color: transparent white #ffffff transparent;
   -webkit-animation: lds-dual-ring 1.2s linear infinite;
           animation: lds-dual-ring 1.2s linear infinite;
 }

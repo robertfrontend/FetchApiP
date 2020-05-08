@@ -21,16 +21,17 @@ function mostrarEmpleados() {
                 let html = ''; 
                 data.forEach(function(empleado){
                     html += `
-                    <div class="tarjeta">
-                        <div>
-                            <h3>Empleados:</h3>
-                            <br>
-                            <p><span>Nombre:</span> ${empleado.nombre}</p>
-                            <p><span>Apellido:</span> ${empleado.apellido} </p>
-                            <p><span>Correo:</span> ${empleado.correo} </p>
-                            <p><span>Puesto:</span> ${empleado.puesto} </p>
+                        <div class="card tarjeta  border-info mb-3" style="max-width: 40rem;">
+                            <div class="card-header">
+                                <h3>Empleados</h3>
+                            </div>
+                            <div class="card-body">
+                                <p><span>Nombre:</span> ${empleado.nombre}</p>
+                                <p><span>Apellido:</span> ${empleado.apellido} </p>
+                                <p><span>Correo:</span> ${empleado.correo} </p>
+                                <p><span>Puesto:</span> ${empleado.puesto} </p>
+                            </div>
                         </div>
-                    </div>
                     `;
                 })
                 document.querySelector('.resultados').innerHTML = html
@@ -55,13 +56,16 @@ function mostrarClientes() {
                 let html = ''; 
                 data.forEach(function(users){
                     html += `
-                        <div class="tarjetaCli">
-                            <div>
-                                <h3>Clientes:</h3>
-                                <br>
+                        <div class="card tarjeta  border-success mb-3" style="max-width: 40rem;">
+                            <div class="card-header">
+                                <h3>Clientes</h3>
+                            </div>
+                            <div class="card-body">
                                 <p><span>Nombre:</span> ${users.name}</p>
                                 <p><span>Correo:</span> ${users.email} </p>
                                 <p><span>Ciudad:</span> ${users.address.city} </p>
+                                <p><span>Compañia:</span> ${users.company.name}  </p>
+
                             </div>
                         </div>
                     `;
@@ -76,46 +80,10 @@ function mostrarClientes() {
         });
 }
 
+
 document.getElementById('limpiarTodo').addEventListener('click', borrarTodo)
 
 function borrarTodo() {
     document.querySelector('.resultados').innerHTML = '';
 
 }
-
-let nombre = document.getElementById('nombre').value
-let apellido = document.getElementById('apellido').value
-let email = document.getElementById('email').value
-
-let btnAgregar = document.getElementById('agregar')
-btnAgregar.addEventListener('click', agregarEmpleado)
-
-function agregarEmpleado() {
-
-    const dataNew = {
-        nombre,
-        apellido,
-        email
-    }
-    html = `
-            <div class="tarjeta">
-                <div>
-                    <h3>Empleados:</h3>
-                    <br>
-                    <p><span>Nombre:</span> ${dataNew.nombre}</p>
-                    <p><span>Apellido:</span> ${dataNew.apellido} </p>
-                    <p><span>Email:</span> ${dataNew.apellido} </p>
-                </div>
-            </div>
-
-            `
-        document.querySelector('.resultados').innerHTML = html
-    
-}
-
-
-/*
-
-
-
-*/
