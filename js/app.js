@@ -76,7 +76,7 @@ function mostrarClientes() {
             },1000)
         })
         .catch(function(){
-            alert('Error, verifica tu conexion')
+            alert('Hubo un error')
         });
 }
 
