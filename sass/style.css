@@ -155,8 +155,8 @@ h1 {
       flex-wrap: wrap;
 }
 
-.tarjeta {
-  width: 400px;
+.tarjetaF {
+  width: 320px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -168,11 +168,11 @@ h1 {
   margin: 20px auto;
 }
 
-.tarjeta div {
+.tarjetaF div {
   width: 100%;
 }
 
-.tarjeta div img {
+.tarjetaF div img {
   width: 100%;
 }
 
