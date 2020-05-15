@@ -8,6 +8,7 @@ body {
     overflow-x: hidden;
 }
 
+// ----General------
 header {
     .links{
         li {
@@ -29,6 +30,75 @@ h1 {
     font-weight: bold !important;
 }
 
+
+//------Index html------
+.seccion-bienvenida{
+    width: 100%;
+    height:100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    .div-bienvenida {
+        margin: 10px auto;
+        padding: 10px 0px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+
+        div {
+            text-align: center;
+            h1 {
+                font-size: 50px;
+                span {
+                    color: #3498DB;
+                }
+            }
+            p {
+                padding: 10px 0px;
+                font-size: 20px;
+            }
+        }
+    }
+    .enlacesApi{
+        padding: 10px 0px;
+        margin: 10px 0px;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-wrap: wrap;
+
+        a {
+            padding: 12px 40px;
+            margin: 10px 0px;
+            border-radius: 5px;
+            text-decoration: none;
+            color: white;
+            p {
+                margin: 0;
+                font-weight: bold;
+            }
+        }
+        .d1 {
+            background-color: #3498DB;
+        }
+        .d2 {
+            background-color: rgb(252, 59, 0);
+        }
+        .d3 {
+            background-color: rgb(0, 117, 146);
+        }
+    }
+}
+
+
+//-----Clientes html-------
 .app {
     width: 100%;
     .bienvenida {

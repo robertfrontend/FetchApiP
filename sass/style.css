@@ -29,6 +29,110 @@ h1 {
   font-weight: bold !important;
 }
 
+.seccion-bienvenida {
+  width: 100%;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.seccion-bienvenida .div-bienvenida {
+  margin: 10px auto;
+  padding: 10px 0px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.seccion-bienvenida .div-bienvenida div {
+  text-align: center;
+}
+
+.seccion-bienvenida .div-bienvenida div h1 {
+  font-size: 50px;
+}
+
+.seccion-bienvenida .div-bienvenida div h1 span {
+  color: #3498DB;
+}
+
+.seccion-bienvenida .div-bienvenida div p {
+  padding: 10px 0px;
+  font-size: 20px;
+}
+
+.seccion-bienvenida .enlacesApi {
+  padding: 10px 0px;
+  margin: 10px 0px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.seccion-bienvenida .enlacesApi a {
+  padding: 12px 40px;
+  margin: 10px 0px;
+  border-radius: 5px;
+  text-decoration: none;
+  color: white;
+}
+
+.seccion-bienvenida .enlacesApi a p {
+  margin: 0;
+  font-weight: bold;
+}
+
+.seccion-bienvenida .enlacesApi .d1 {
+  background-color: #3498DB;
+}
+
+.seccion-bienvenida .enlacesApi .d2 {
+  background-color: #fc3b00;
+}
+
+.seccion-bienvenida .enlacesApi .d3 {
+  background-color: #007592;
+}
+
 .app {
   width: 100%;
 }

@@ -5,87 +5,46 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Creando mi propia api</title>
     <link rel="stylesheet" href="./sass/style.css">
-   <link rel="stylesheet" href="./sass/bootstrap.min.css">
+    <link rel="stylesheet" href="./sass/bootstrap.min.css">
 </head>
 <body>
 
-    <div class="d-flex m-0  justify-content-center alert alert-dismissible alert-primary">
-        <!-- <button type="button" class="close" data-dismiss="alert">&times;</button> -->
-        <p class="mb-0 text-white ">
-            Esto fue creado para practicar con REST, JSON...Hechale un vistazo a mi Github:
-            <a href="https://github.com/Robertrm0" target="_blank"  class="alert-link">
-                AQUI!
-            </a>.
-        </p>
-    </div>
-    <header class="bg-dark" >
+    <section class="seccion-bienvenida">
         <div class="container">
-            <nav class="navbar navbar-expand-lg " >
-                <a class="navbar-brand text-white"  href="#">
-                    Robert Api
+            <div class="div-bienvenida">
+                <div>
+                    <h1>Bienvenidos a 
+                        <span>Robert APIS LOL</span>
+                    </h1>
+                    <p>
+                        Aqui encontraras diferentes apis con
+                        las que he practicado.
+                        <br>
+                        Puedes encontrar mas sobre mi en 👉<a href="https://github.com/Robertrm0" target="_blank"  class="alert-link">
+                            @Robertrm0
+                        </a>.
+                    </p>
+                </div>
+            </div>
+            <div class="enlacesApi">
+                <a class="d1" href="clientes.html">
+                    <p>
+                        API Clientes 
+                    </p>
                 </a>
-                <ul class="navbar-nav ml-auto links ">
-                    <li class="nav-item ">
-                        <a href="#" class="nav-link">
-                            Inicio
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="./fotos.html" class="nav-link">
-                            API de Fotos
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="https://robertrm0.github.io/" target="_blank"  class="nav-link">
-                            Sobre mi
-                        </a>
-                    </li>
-                </ul>
-            </nav>
-        </div>
-    </header>
-    <div class="container">
-        <div class="app">
-            <div class="bienvenida">
-                <h1>App de Empleados/Clientes</h1>
-            </div>
-    
-            <div class="botones">
-                <div>
-                    <label for="">
-                        Mostrar Empleados
-                        <a href="#" class="btn btn-info" id="btnEmpleados" >
-                            Mostrar
-                        </a>
-                    </label>
-                </div>
-                <div>
-                    <label for="">
-                        Borrar Resultados
-                        <a href="#" class="btn btn-danger" id="limpiarTodo">
-                            Limpiar
-                        </a>
-                    </label>
-                </div>
-                <div>
-                    <label for="">
-                        Mostrar Clientes
-                        <a href="#" class="btn btn-success" id="btnClientes">
-                            Mostrar
-                        </a>
-                    </label>
-                </div>
-            </div>
-            <div class="divCarga">
-                
-            </div>
-            <div class="resultados">
-
+                <a class="d2" href="fotos.html">
+                    <p>
+                        API Fotos 
+                    </p>
+                </a>
+                <a class="d3" href="#">
+                    <p>
+                        Otra Api? 
+                    </p>
+                </a>
             </div>
         </div>
+    </section>
     
-    </div>
-    
-    <script src="./js/app.js"></script>
 </body>
 </html>
