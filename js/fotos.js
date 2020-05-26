@@ -31,8 +31,8 @@ window.onload = () => {
                     </div>
                 `;
             })
-            document.querySelector('.result').innerHTML = miHtml
-            document.querySelector('.divCarga').innerHTML = ''
+            document.querySelector('.result').innerHTML = miHtml;
+            document.querySelector('.divCarga').innerHTML = '';
     })
 }
 

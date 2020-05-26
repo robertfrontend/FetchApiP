@@ -10,6 +10,7 @@ body {
 
 // ----General------
 header {
+
     .links{
         li {
             padding: 0px 10px;
@@ -31,7 +32,46 @@ h1 {
 }
 
 
+//----menu----
+.div-menu{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    div {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        padding: 10px 0px;
+        p {
+            margin: 0;
+            font-size: 20px;
+            font-weight: bold;
+        }
+    }
+    .d-logo{
+        width: 300px;
+        justify-content: center;
+    }
+    .d-link{
+        width: 600px;
+        justify-content: space-evenly;
+        align-items: center !important;
+        a {
+            color: white;
+            text-decoration: none;
 
+            &:hover {
+                color: #3498DB;
+            }
+        }
+    }
+}
 
 //-----Clientes html-------
 .app {
@@ -106,7 +146,6 @@ h1 {
 
 //--------FOTOS HTML --------
 
-
 .result{
     width: 100%;
     display: flex;
@@ -123,6 +162,7 @@ h1 {
     margin: 20px auto;
     div {
         width: 100%;
+
         img {
             width: 100%;
         }

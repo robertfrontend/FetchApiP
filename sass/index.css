@@ -40,11 +40,13 @@
 }
 
 .seccion-bienvenida .div-bienvenida div {
+  width: 80%;
   text-align: center;
 }
 
 .seccion-bienvenida .div-bienvenida div h1 {
   font-size: 50px;
+  font-weight: bold;
 }
 
 .seccion-bienvenida .div-bienvenida div h1 span {
